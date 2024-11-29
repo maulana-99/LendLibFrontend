@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2F364D;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.register-container {
+    width: 430px;
+    max-width: 500px;
+    padding: 30px;
+    border: 3px solid #E7E0BF;
+    border-radius: 21px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    background-color: #FAF6E3;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.4rem;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.register-text-top {
+    font-size: 0.8rem;
+    color: #666;
+    font-weight: 300;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+.register-text-bottom {
+    font-size: 0.8rem;
+    color: #666;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-weight: lighter;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 5px;
+    display: block;
+    margin-left: 14px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #F5F0D6;
+    border: 2px solid #B2AD92;
+    border-radius: 7px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.password-input {
+    position: relative;
+}
+
+.password-input input {
+    padding-right: 40px;
+    width: 100%;
+    padding: 12px 15px;
+    background-color: #F5F0D6;
+    border: 2px solid #B2AD92;
+    border-radius: 7px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.fa-eye-slash,
+.fa-eye {
+    color: #2D3657;
+}
+
+.password-input button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    font-size: 18px;
+}
+
+button[type="submit"] {
+    width: 300PX;
+    margin-top: 40px;
+    padding: 17px;
+    background: linear-gradient(90deg, #40518E, #2D3657);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background: linear-gradient(90deg, #2D3657, #40518E);
+}
+
+.register-link {
+    font-size: 11px;
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+a {
+    color: #2D3657;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 11px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .register-container {
+        padding: 20px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        font-size: 14px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
+    }
+}
