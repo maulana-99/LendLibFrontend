@@ -14,10 +14,13 @@
     "@types/react-router-dom": "^5.3.3",
     "axios": "^1.7.8",
     "boxicons": "^2.1.4",
+    "module": "^1.2.5",
     "react": "^18.3.1",
+    "react-devtools": "^6.0.1",
     "react-dom": "^18.3.1",
     "react-icons": "^5.3.0",
-    "react-router-dom": "^7.0.1"
+    "react-router-dom": "^7.0.1",
+    "styles": "^0.2.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-body {
+.register-container {
     font-family: 'Roboto', sans-serif;
     background-color: #2F364D;
     margin: 0;
@@ -10,7 +10,7 @@ body {
     height: 100vh;
 }
 
-.register-container {
+.register-box {
     width: 430px;
     max-width: 500px;
     padding: 30px;
@@ -21,7 +21,7 @@ body {
     text-align: center;
 }
 
-h1 {
+.register-header {
     font-size: 2.4rem;
     color: #000;
     margin-bottom: 10px;
@@ -47,12 +47,14 @@ h1 {
     font-weight: lighter;
 }
 
-.form-group {
+.form-group-register {
     margin-bottom: 20px;
     text-align: left;
 }
 
-label {
+.label-name-register,
+.label-email-register,
+.label-password-register {
     font-weight: bold;
     color: #000;
     margin-bottom: 5px;
@@ -60,9 +62,9 @@ label {
     margin-left: 14px;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"] {
+.input-name-register,
+.input-email-register,
+.input-password-register {
     width: 100%;
     padding: 12px 15px;
     background-color: #F5F0D6;
@@ -72,11 +74,11 @@ input[type="password"] {
     box-sizing: border-box;
 }
 
-.password-input {
+.password-input-register {
     position: relative;
 }
 
-.password-input input {
+.password-input-register .input-password-register {
     padding-right: 40px;
     width: 100%;
     padding: 12px 15px;
@@ -92,7 +94,7 @@ input[type="password"] {
     color: #2D3657;
 }
 
-.password-input button {
+.password-input-register .password-toggle-register {
     position: absolute;
     right: 10px;
     top: 50%;
@@ -104,7 +106,7 @@ input[type="password"] {
     font-size: 18px;
 }
 
-button[type="submit"] {
+.button-register {
     width: 300PX;
     margin-top: 40px;
     padding: 17px;
@@ -118,7 +120,7 @@ button[type="submit"] {
     transition: background 0.3s ease;
 }
 
-button[type="submit"]:hover {
+.button-register:hover {
     background: linear-gradient(90deg, #2D3657, #40518E);
 }
 
@@ -129,7 +131,7 @@ button[type="submit"]:hover {
     margin-bottom: 50px;
 }
 
-a {
+.register-link-text {
     color: #2D3657;
     text-decoration: none;
     font-weight: bold;
@@ -140,7 +142,7 @@ a {
     font-size: 11px;
 }
 
-a:hover {
+.register-link-text:hover {
     text-decoration: underline;
 }
 
@@ -149,13 +151,13 @@ a:hover {
         padding: 20px;
     }
 
-    input[type="text"],
-    input[type="email"],
-    input[type="password"] {
+    .input-name-register,
+    .input-email-register,
+    .input-password-register {
         font-size: 14px;
     }
 
-    button[type="submit"] {
+    .button-register {
         font-size: 14px;
     }
 }

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.sidebar-container {
+    width: 250px;
+    height: 100vh;
+    background-color: #fff;
+    border-right: 1px solid #6D6F77;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sidebar-menu-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sidebar-menu {
+    list-style: none;
+    text-align: left;
+}
+
+.sidebar-item {
+    margin: 5px 0;
+}
+
+.sidebar-item .sidebar-item-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.4rem;
+    display: block;
+    padding: 10px;
+    margin-right: 45px;
+    transition: background-color 0.3s ease;
+    font-weight: normal;
+}
+
+.sidebar-item .sidebar-item-link:hover {
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+.sidebar-item:last-child {
+    margin-top: 300px;
+}
+
+@media (max-width: 768px) {
+    .sidebar-container {
+        width: 200px;
+    }
+
+    .sidebar-header {
+        font-size: 1.2rem;
+    }
+
+    .sidebar-item .sidebar-item-link {
+        font-size: 0.9rem;
+    }
+}

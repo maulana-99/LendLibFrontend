@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+.dashboard-table-container {
+    padding: 20px;
+    background-color: #E9E9E9;
+    border-radius: 15px;
+    width: 1016px;
+    height: 750px;
+}
+
+.dashboard-table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dashboard-table-title {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+}
+
+.dashboard-table-total {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.dashboard-table {
+    width: 100%;
+    text-align: left;
+}
+
+.dashboard-table-link {
+    text-decoration: none;
+    color: #000;
+    align-self: center;
+}
+
+.dashboard-table-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
