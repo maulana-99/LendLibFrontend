@@ -34,24 +34,29 @@
     margin: 5px 0;
 }
 
-.sidebar-item .sidebar-item-link {
+.sidebar-item-link {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: #000;
     font-size: 1.4rem;
-    display: block;
-    padding: 10px;
+    padding: 0px 10px;
     margin-right: 45px;
-    transition: background-color 0.3s ease;
+    transition: 1s initial;
     font-weight: normal;
+    border-radius: 10px;
 }
 
 .sidebar-item .sidebar-item-link:hover {
-    border-radius: 10px;
     border: 1px solid #000;
 }
 
+.sidebar-item .sidebar-item-link i {
+    margin-right: 10px;
+}
+
 .sidebar-item:last-child {
-    margin-top: 300px;
+    margin-top: 100px;
 }
 
 @media (max-width: 768px) {
